@@ -34,15 +34,17 @@ body {
 
 .icon-bar {
     position: fixed;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 50%;
+    left: 30px;
+    bottom: auto;
+    transform: translateY(-50%);
     width: fit-content;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding: 15px 30px;
+    padding: 30px 15px;
     background-color: #000000;
     border-radius: 12px;
 }
