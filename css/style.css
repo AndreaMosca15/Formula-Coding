@@ -143,6 +143,12 @@ body {
         font-size: 24px;
     }
 
+    .profileIcon {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+    }
+
     #formulaCodingTitle,
     #subTitle {
         width: 100%;
